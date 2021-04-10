@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'aemstelregular';
+    src: url('../fonts/aemstel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aemstel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img, object, video 
+{
+ 	max-width: 100%; 
+}
+
+body 
+{
+  	font-family: Arial, sans-serif;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	padding-top: 50px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#mainLogo
+{
+	background-image: url(images/Bandaid.svg);
+	width: 8%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.mainHeader
+{
+	display: flex;
+}
+
+.splitter
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #000;
+	height: 1px;
+	width: 100%;
+	opacity: 0.2;
+}
+
+.teamIntro
+{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+.teamIntro h2
+{
+	font-size: 60px;
+	font-family: aemstelregular;
+	text-align: center;
+}
+.profiles
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.buttons
+{
+	margin-bottom: 50px;
+}
+
+.pfps img
+{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.mackIMG
+{
+	border-radius: 1000px;
+}
