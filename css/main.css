@@ -78,6 +78,28 @@ body
 	margin-bottom: 50px;
 }
 
+.buttons button
+{
+	font-family: aemstelregular;
+ 	width: 200px;
+	background: #BE2217;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+button:active
+{
+	background-color: grey;
+}
+
+.profiles
+{
+	padding-bottom: 200px;
+}
+
 .pfps img
 {
 	display: block;
@@ -88,4 +110,22 @@ body
 .mackIMG
 {
 	border-radius: 1000px;
+}
+
+.buttons button:hover
+{
+	transform: scale(.95);
+	transition: transform .25s ease;
+}
+
+.profiles p
+{
+	margin-top: 50px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 25px;
 }
